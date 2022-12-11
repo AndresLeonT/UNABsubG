@@ -40,12 +40,12 @@
       </div>
     </nav>
     <!--lOGIN form-->
-    <div class="container w-75 bg-light mt-5 rounded-5 mb-5 shadow">
+    <div class="container w-75 bg-light mt-5 rounded mb-5 shadow">
       <div class="row align-items-stretch">
-        <div class="col bg d-none d-lg-block">
+        <div class="col bg d-none d-lg-block rounded">
 
         </div>
-        <div class="col ">
+        <div class="col  p-2  rounded-end">
           <div class="text-end ">
             
           </div class="my-4">
@@ -56,21 +56,21 @@
           <form action="#" class="mb-5">
             <div class="mb-4">
               <label for="email" class="from-label">Correo Electrónico</label>
-              <input type="email" class="form-control" name="email">
+              <input type="email" class="form-control" name="email" required>
             </div>
             <div class="mb-4">
               <label for="password" class="from-label">Contraseña</label>
-              <input type="password" class="form-control" name="password">
+              <input type="password" class="form-control" name="password" required>
             </div>
-            <div class="mb-4 form-check">
+            <div class="mb-4 form-check text-">
               <input type="checkbox" name="conected" id="conected" class="form-check-input">
               <label for="connected " class="form-check-label">Mantenerme Conectado</label>
             </div>
-            <div class="d-grid">
+            <div class="d-grid ">
               <button type="submit" class="btn btn-primary my-5">Iniciar Sesión</button>
             </div>
             <br><br><br>
-            <div class="my-3 d-block ">
+            <div class="my-3 d-block text-end ">
               <span>No tienes cuenta aún? <a href="#">Regístrate!  </a> </span><br>
               <span><a href="#">Recuperar contraseña</a></span>
             </div>
@@ -81,7 +81,7 @@
 
 
     <!--footer-->
-    <footer class=" fixed-bottom">
+    <footer class=" fixed-bottom d-sm-none d-lg-block">
       <div class="container-fluid bg-dark text-light text-center footer">
         <p class="mb-0">&copy; Todos los derechos reservados :: Fundación ADOPTA :: Colombia :: 2022  </p>
       </div>
