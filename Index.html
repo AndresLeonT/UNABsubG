@@ -5,38 +5,87 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="/styles.css">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>ADOPTA</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <body style="background: linear-gradient(to right, rgba(184,190,221,1) 0%, rgba(255,255,255,1) 100%);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
       <div class="container-fluid">
-        <a class="navbar-brand " style="color: #8883d0;" href="#">ADOPTA</a>
+        <a class="navbar-brand fw-bolder fs-2" style="color: #8883d0;" href="#">ADOPTA</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="row-2"></div>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Registro</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Mascotas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#" tabindex="-1" aria-busy="true">Salir</a>
-            </li>
-          </ul>
-        </div>
+        
+      </div>
+      <div class="collapse navbar-collapse  align-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mascotas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1" aria-busy="true">Salir</a>
+          </li>
+        </ul>
       </div>
     </nav>
+    <!--lOGIN form-->
+    <div class="container w-75 bg-light mt-5 rounded-5 mb-5 shadow">
+      <div class="row align-items-stretch">
+        <div class="col bg d-none d-lg-block">
 
+        </div>
+        <div class="col ">
+          <div class="text-end ">
+            
+          </div class="my-4">
+          <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+          <br><br><br>
+
+          <!--Login-->
+          <form action="#" class="mb-5">
+            <div class="mb-4">
+              <label for="email" class="from-label">Correo Electrónico</label>
+              <input type="email" class="form-control" name="email">
+            </div>
+            <div class="mb-4">
+              <label for="password" class="from-label">Contraseña</label>
+              <input type="password" class="form-control" name="password">
+            </div>
+            <div class="mb-4 form-check">
+              <input type="checkbox" name="conected" id="conected" class="form-check-input">
+              <label for="connected " class="form-check-label">Mantenerme Conectado</label>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary my-5">Iniciar Sesión</button>
+            </div>
+            <br><br><br>
+            <div class="my-3 d-block ">
+              <span>No tienes cuenta aún? <a href="#">Regístrate!  </a> </span><br>
+              <span><a href="#">Recuperar contraseña</a></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!--footer-->
+    <footer class=" fixed-bottom">
+      <div class="container-fluid bg-dark text-light text-center footer">
+        <p class="mb-0">&copy; Todos los derechos reservados :: Fundación ADOPTA :: Colombia :: 2022  </p>
+      </div>
+    </footer>  
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
