@@ -12,7 +12,7 @@
 
     <title>ADOPTA-Mascotas</title>
   </head>
-  <body>
+  <body style="background: linear-gradient(to right, rgb(239, 229, 241) 0%, rgb(217, 219, 232) 100%);">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container-fluid">
           <a class="navbar-brand fw-bolder fs-2" style="color: #8883d0;" href="#">ADOPTA</a>
@@ -40,9 +40,109 @@
         </div>
       </nav>
       <!--End-navBar-->
+      <br><br><br>
       <div class="container w-75 bg-light mt-5 rounded mb-5 shadow">
         <div class="row">
-            <h2>Mascotas</h2>
+            <h2 class="text-center py-5">Mascotas</h2>
+        </div>
+
+        <div class="row py-5">
+          <div class="col-8 px-5">
+            <table class="table  shadow">
+              <thead>
+                <tr class="table-dark">
+                  <th scope="col">ID</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Especie</th>
+                  <th scope="col">Raza</th>
+                  <th scope="col">Estado</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Gato</td>
+                  <td>criollo</td>
+                  <td>Vacunas No</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Perro</td>
+                  <td>Labrador</td>
+                  <td>Vacunas SI</td>
+                </tr>
+                
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Gato</td>
+                  <td>Negro</td>
+                  <td>Vacunas SI</td>
+                </tr>
+                
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Perro</td>
+                  <td>Criollo</td>
+                  <td>Vacunas NO</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+          <div class="col-3 px-5 mx-2">
+            <div class="card shadow" style="width: 18rem;">
+              
+              
+              <div class="card-body">
+                <h5 class="card-title">Buscar</h5>
+                <form action="#">
+                  
+                  <div class="mb-4 input-group-text">
+                    <input type="email" class="form-control" name="email" required>
+                    <label for="email" class="from-label btn btn-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg></label>
+                    
+                  </div>
+                </form>
+                <div class="card-body">
+                  <h5 class="card-title">Filtro</h5>
+                  <form action="#">
+                    
+                    <div class="mb-4 form-check text-">
+                      <input type="checkbox" name="conected" id="conected" class="form-check-input">
+                      <label for="connected " class="form-check-label">Perro</label>
+                    </div>
+                    <div class="mb-4 form-check text-">
+                      <input type="checkbox" name="conected" id="conected" class="form-check-input">
+                      <label for="connected " class="form-check-label">Gato</label>
+                    </div>
+                    <div class="mb-4 form-check text-">
+                      <input type="checkbox" name="conected" id="conected" class="form-check-input">
+                      <label for="connected " class="form-check-label">Sin vacunas</label>
+                    </div>
+                    <div class="mb-4 form-check text-">
+                      <input type="checkbox" name="conected" id="conected" class="form-check-input">
+                      <label for="connected " class="form-check-label">Vacunado</label>
+                    </div>
+                    <div class="mb-4 form-check text-">
+                      <input type="checkbox" name="conected" id="conected" class="form-check-input">
+                      <label for="connected " class="form-check-label">En proceso de adopcion</label>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
         </div>
 
       </div>
