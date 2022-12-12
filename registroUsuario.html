@@ -12,7 +12,7 @@
 
     <title>ADOPTA-Mascotas</title>
   </head>
-  <body>
+  <body style="background: linear-gradient(to right, rgb(226, 216, 156) 0%, rgb(228, 200, 200) 100%);">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container-fluid">
           <a class="navbar-brand fw-bolder fs-2" style="color: #8883d0;" href="#">ADOPTA</a>
@@ -39,6 +39,55 @@
           </ul>
         </div>
       </nav>
+
+      <!--Form-registro-usuarios-->
+      <div class="container w-75  mt-5 rounded mb-5 shadow" style="background: #eeebee;">
+        <div class="row">
+            <h2 class="text-center p-3">Registro Usuarios</h2>
+        </div>
+        <div class="row px-5">
+            <form action="#" class="">
+                <div class="row m-5">
+                    <div class="mb-4 col">
+                        <label for="text" class="from-label fw-bold fs-5">Nombre</label>
+                        <input type="text" class="form-control" name="nombre" required>
+                    </div>
+                    <div class="mb-4 col">
+                        <label for="text" class="from-label fw-bold fs-5">Dirección</label>
+                        <input type="text" class="form-control" name="direccion" required>
+                    </div>
+                </div> 
+                <div class="row m-5">
+                    <div class="mb-4 col">
+                        <label for="text" class="from-label fw-bold fs-5">Ciudad</label>
+                        <input type="text" class="form-control" name="ciudad" required>
+                    </div>
+                    <div class="mb-4 col">
+                        <label for="email" class="from-label fw-bold fs-5">Correo Electrónico</label>
+                        <input type="email" class="form-control" name="email" required>
+                    </div>
+                </div> 
+                <div class="row m-5">
+                    <div class="mb-4 col">
+                        <label for="password" class="from-label fw-bold fs-5">Contraseña</label>
+                        <input type="password" class="form-control" name="password" required>
+                    </div>
+                    <div class="mb-4 col">
+                        <label for="password" class="from-label fw-bold fs-5">Confirma la Contraseña</label>
+                        <input type="password" class="form-control" name="password" required>
+                    </div>
+                    <div class="mb-4 form-check text-">
+                        <input type="checkbox" name="conected" id="conected" class="form-check-input">
+                        <label for="connected " class="form-check-label fs-5">Acepto terminos y condiciones</label>
+                    </div>
+                    <div class="d-grid px-5">
+                        <button type="submit" class="btn btn-secondary my-5 fw-bold fs-4">Registrarme</button>
+                    </div>
+                </div>    
+            </form>    
+        </div>
+      </div>
+
 
       <!--footer-->
     <footer class=" fixed-bottom d-sm-none d-lg-block">
